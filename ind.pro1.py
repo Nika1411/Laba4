@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- config utf-8 -*-
 
+# Вариант 2
+# Дано число m (1 <= m <= 12).Определить, сколько дней в месяце с номером .
+
 import sys
 
 if __name__ == '__main__':
@@ -13,7 +16,7 @@ if __name__ == '__main__':
     elif m == 4 or m == 6 or m == 9 or m == 11:
         print("30 дней")
     else:
-        print("Столько месяцев нема", file=sys.stderr)
+        print("Столько месяцев нету", file=sys.stderr)
     exit(1)
 
 
