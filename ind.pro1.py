@@ -17,6 +17,6 @@ if __name__ == '__main__':
         print("30 дней")
     else:
         print("Столько месяцев нету", file=sys.stderr)
-    exit(1)
+        exit(1)
 
 
